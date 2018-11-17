@@ -1,0 +1,5 @@
+package com.aayush.webServices.repository;
+
+public interface ExchangeValueRepository {
+
+}

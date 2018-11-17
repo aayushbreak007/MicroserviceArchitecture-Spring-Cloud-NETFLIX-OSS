@@ -1,0 +1,9 @@
+spring.application.name=limits-service
+
+
+#These values should be now picked up from the "Spring-cloud-config-server"
+#limits-service.maximum=9999
+#limits-service.minimum=99
+
+# url and port of the "spring-cloud-config-server"
+spring.cloud.config.uri=http://localhost:8888

@@ -1,0 +1,8 @@
+spring.application.name=Limits-service
+
+#default port is 8080
+server.port=8080
+
+#setting up values for Limit-service configuration
+limits-service.maximum=9999
+limits-service.minimum=99

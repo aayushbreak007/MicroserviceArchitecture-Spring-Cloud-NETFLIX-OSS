@@ -1,0 +1,23 @@
+package com.aayush.webServices;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+import com.aayush.webServices.bean.LimitConfiguration;
+
+@RestController
+public class LimitsConfigurationController {
+	
+	@GetMapping("/limits")
+	public LimitConfiguration retrieveLimitsFromConfiguration() {
+		
+		//we should pick these limits from application properties
+		@Autowired
+		private Configuration configuration;
+		
+		return new LimitConfiguration();
+	}
+	
+
+}

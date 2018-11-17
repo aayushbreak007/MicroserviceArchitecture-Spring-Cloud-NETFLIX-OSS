@@ -1,0 +1,8 @@
+spring.application.name=Limits-service
+
+#default port is 8080
+server.port=8080
+
+#These values should be now picked up from the "Spring-cloud-config-server"
+#limits-service.maximum=9999
+#limits-service.minimum=99

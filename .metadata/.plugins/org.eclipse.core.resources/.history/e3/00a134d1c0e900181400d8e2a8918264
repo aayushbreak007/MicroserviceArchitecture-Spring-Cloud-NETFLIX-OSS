@@ -1,0 +1,5 @@
+package com.aayush.webServices.feignProxy;
+
+public interface CurrencyExchangeServiceProxy {
+
+}

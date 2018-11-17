@@ -1,0 +1,17 @@
+#The app name should be same as the GIT repo file name
+spring.application.name=limits-service
+
+
+#These values should be now picked up from the "Spring-cloud-config-server"
+#limits-service.maximum=9999
+#limits-service.minimum=99
+
+# url and port of the "spring-cloud-config-server"
+# it will pick up the DEFAULT profile environment from the server	
+spring.cloud.config.uri=http://localhost:8888
+
+# for selecting a specific profile/envirnoment
+spring.profiles.active=dev
+
+#enable URLfor EUREKA
+eureka.client.service-url.default-zone=http://localhost:8671/eureka
