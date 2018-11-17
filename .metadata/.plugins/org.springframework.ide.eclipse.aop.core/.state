@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aop-reference-model>
+<aop-project name="FirstProject"/>
+<aop-project name="JPA_Project_1"/>
+<aop-project name="Restful-web-services"/>
+</aop-reference-model>
