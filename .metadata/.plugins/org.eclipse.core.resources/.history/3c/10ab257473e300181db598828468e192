@@ -1,8 +1,0 @@
-server.port=8888
-
-
-#debug mode
-logging.level.org.springframework=debug
-
-#for internationalization
-spring.messages.basename=messages

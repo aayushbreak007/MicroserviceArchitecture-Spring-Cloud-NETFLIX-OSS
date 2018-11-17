@@ -1,8 +1,0 @@
-package com.example.rest.webservices.versioning;
-
-public class PersonV2 {
-
-	private String name;
-	
-	
-}
